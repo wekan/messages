@@ -1,0 +1,41 @@
+{
+  "name": "@ldapjs/messages",
+  "homepage": "https://github.com/ldapjs/messages",
+  "description": "API for creating and parsing LDAP messages",
+  "version": "1.0.0-rc.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ldapjs/messages.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@ldapjs/asn1": "1.2.0",
+    "@ldapjs/controls": "^1.0.0",
+    "@ldapjs/protocol": "^1.1.0",
+    "abstract-logging": "^2.0.1",
+    "process-warning": "^2.0.0"
+  },
+  "devDependencies": {
+    "@fastify/pre-commit": "^2.0.2",
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "tap": "^16.2.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:ci": "eslint .",
+    "test": "tap --no-coverage-report",
+    "test:cov": "tap",
+    "test:cov:html": "tap --coverage-report=html",
+    "test:watch": "tap -w --no-coverage-report"
+  },
+  "precommit": [
+    "lint",
+    "test"
+  ]
+}
