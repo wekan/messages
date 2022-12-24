@@ -8,5 +8,6 @@ module.exports = {
   BindRequest: require('./lib/messages/bind-request'),
   DeleteRequest: require('./lib/messages/delete-request'),
 
-  AddResponse: require('./lib/messages/add-response')
+  AddResponse: require('./lib/messages/add-response'),
+  BindResponse: require('./lib/messages/bind-response')
 }
