@@ -6,6 +6,7 @@ module.exports = {
   AbandonRequest: require('./lib/messages/abandon-request'),
   AddRequest: require('./lib/messages/add-request'),
   BindRequest: require('./lib/messages/bind-request'),
+  CompareRequest: require('./lib/messages/compare-request'),
   DeleteRequest: require('./lib/messages/delete-request'),
 
   AbandonResponse: require('./lib/messages/abandon-response'),
