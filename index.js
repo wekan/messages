@@ -12,5 +12,6 @@ module.exports = {
   AbandonResponse: require('./lib/messages/abandon-response'),
   AddResponse: require('./lib/messages/add-response'),
   BindResponse: require('./lib/messages/bind-response'),
-  CompareResponse: require('./lib/messages/compare-response')
+  CompareResponse: require('./lib/messages/compare-response'),
+  DeleteResponse: require('./lib/messages/delete-response')
 }
