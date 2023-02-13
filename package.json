@@ -14,6 +14,7 @@
     "@ldapjs/attribute": "1.0.0-rc.3",
     "@ldapjs/change": "1.0.0-rc.2",
     "@ldapjs/controls": "^1.0.0",
+    "@ldapjs/dn": "1.0.0-rc.1",
     "@ldapjs/protocol": "1.2.1",
     "process-warning": "^2.0.0"
   },

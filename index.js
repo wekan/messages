@@ -10,6 +10,7 @@ module.exports = {
   DeleteRequest: require('./lib/messages/delete-request'),
   ExtensionRequest: require('./lib/messages/extension-request'),
   ModifyRequest: require('./lib/messages/modify-request'),
+  ModifyDnRequest: require('./lib/messages/modifydn-request'),
 
   AbandonResponse: require('./lib/messages/abandon-response'),
   AddResponse: require('./lib/messages/add-response'),
@@ -18,6 +19,7 @@ module.exports = {
   DeleteResponse: require('./lib/messages/delete-response'),
   ExtensionResponse: require('./lib/messages/extension-response'),
   ModifyResponse: require('./lib/messages/modify-response'),
+  ModifyDnResponse: require('./lib/messages/modifydn-response'),
 
   // Specific extension response implementations.
   PasswordModifyResponse: require('./lib/messages/extension-responses/password-modify'),
