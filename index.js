@@ -11,6 +11,7 @@ module.exports = {
   ExtensionRequest: require('./lib/messages/extension-request'),
   ModifyRequest: require('./lib/messages/modify-request'),
   ModifyDnRequest: require('./lib/messages/modifydn-request'),
+  UnbindRequest: require('./lib/messages/unbind-request'),
 
   AbandonResponse: require('./lib/messages/abandon-response'),
   AddResponse: require('./lib/messages/add-response'),
