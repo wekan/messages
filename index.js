@@ -30,6 +30,7 @@ module.exports = {
   // Search request messages.
   SearchResultEntry: require('./lib/messages/search-result-entry'),
   SearchResultReference: require('./lib/messages/search-result-reference'),
+  SearchResultDone: require('./lib/messages/search-result-done'),
 
   // Specific extension response implementations.
   PasswordModifyResponse: require('./lib/messages/extension-responses/password-modify'),
