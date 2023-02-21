@@ -11,8 +11,8 @@
   "main": "index.js",
   "dependencies": {
     "@ldapjs/asn1": "2.0.0-rc.4",
-    "@ldapjs/attribute": "1.0.0-rc.4",
-    "@ldapjs/change": "1.0.0-rc.2",
+    "@ldapjs/attribute": "1.0.0-rc.5",
+    "@ldapjs/change": "1.0.0-rc.3",
     "@ldapjs/controls": "2.0.0-rc.1",
     "@ldapjs/dn": "1.0.0-rc.1",
     "@ldapjs/filter": "2.0.0-rc.4",
